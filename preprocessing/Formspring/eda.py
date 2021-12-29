@@ -1,9 +1,6 @@
 import pandas as pd
+pd.set_option('display.max_columns', None)
+import pickle
 import numpy as np
 
-print('test sync impor')
-
-if 2==3:
-    print('nope')
-else:
-    print('yep')
+data = pd.read_csv('../../data/formspring_data_1.csv', sep = '\t')
