@@ -1,0 +1,9 @@
+processing,model,"['none', 'racism', 'sexism']",F1_Twitter
+character n-grams,lr,[0.87513351 0.68532798 0.61806277]
+character n-grams,svm,[0.87826191 0.69700017 0.64242119]
+character n-grams,rf,[0.86612236 0.53458508 0.53466773]
+character n-grams,nb,[0.81891288 0.02636349 0.13023802]
+word unigrams,lr,[0.88232461 0.67304644 0.64644332]
+word unigrams,svm,[0.88711981 0.72151983 0.69329969]
+word unigrams,rf,[0.88718677 0.73723968 0.66580967]
+word unigrams,nb,[0.84808967 0.40042297 0.39060508]
