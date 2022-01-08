@@ -1,0 +1,33 @@
+
+**Conclusion Issues**
+- Swear words are not necessary/sufficient - PROVEN
+- DL models outperform ML models
+- Oversampling is better due to class imbalance
+- Vocab of words used for cyberbullying and their interpretation varies wildly
+
+- word embedding methods have no difference
+- no difference between DL models (LSTM generally weaker) against oversampled data
+
+- Task Specific Embedding ????
+- TL ????
+
+**Data Issues**
+- Twitter data very specifically sourced focusing on keywords which would attract racist and sexist comments (e.g. #notallmen, My Kitchen Rules, Islam Terrorism, etc.)
+
+
+**Methodology Issues**
+Python 2 vs Python 3 (shouldn't be an issue in concept)
+TensorFlow vocabulary processor doesn't exist anymore
+No train-test split?? Only 5-fold CV - (80/20)
+
+**Replicability Issues**
+Table 1 - Vocab size, unknown
+Table 2 - Mostly right, questionable methodology on determination of 'swear word'
+Table 3 - Baseline ML model not similar at all (even when copying code)
+
+Next Catchup - 12.01, 6pm 
+
+TODO - read up on word embeddings - what does it really mean (IF, DG)
+TODO - BL to harden the fuck up and get 3.9/conda (BL)
+TODO - add sklearn wrappers to the four models (BL)
+TODO - DL preprocess other two datasets (IF)
