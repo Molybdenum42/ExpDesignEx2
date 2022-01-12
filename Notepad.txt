@@ -28,7 +28,7 @@ Table 1 - Vocab size, unknown
 Table 2 - Mostly right, questionable methodology on determination of 'swear word'
 Table 3 - Baseline ML model not similar at all (even when copying code)
 
-Next Catchup - 12.01, 6pm 
+Next Catchup - 16.01, 10am
 
 TODO - run embedding, get the embedding weights and how to input into Keras model.
 
