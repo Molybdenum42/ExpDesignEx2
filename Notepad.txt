@@ -21,6 +21,7 @@ https://www.overleaf.com/5139488846tztmskpnwfzq
 Python 2 vs Python 3 (shouldn't be an issue in concept)
 TensorFlow vocabulary processor doesn't exist anymore
 No train-test split?? Only 5-fold CV - (80/20)
+OG People used a Branching CNN instead of a traditional CNN - have changed this as architecture not well-understoof
 
 **Replicability Issues**
 Table 1 - Vocab size, unknown
