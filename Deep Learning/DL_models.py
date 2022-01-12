@@ -24,6 +24,9 @@ def lstm_keras(inp_dim, vocab_size, embed_size, num_classes):
 
 def cnn_keras(inp_dim, vocab_size, embed_size, num_classes):
     model = Sequential()
+
+    # Embedding layer not necessary when being put through Glove??
+
     model.add(Embedding(vocab_size, embed_size, input_length=inp_dim, trainable=True))
     model.add(Dropout(0.25))
 
