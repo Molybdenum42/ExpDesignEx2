@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 /Deep Learning/glove_embeddings/glove.twitter.27B.zip
 /Deep Learning/glove_embeddings/glove.6B.zip
-/Deep Learning/glove_embeddings/
+/Deep Learning/glove_embeddings/glove.twitter.27B.25d.txt
