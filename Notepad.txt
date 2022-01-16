@@ -21,45 +21,27 @@ https://www.overleaf.com/5139488846tztmskpnwfzq
 Python 2 vs Python 3 (shouldn't be an issue in concept)
 TensorFlow vocabulary processor doesn't exist anymore
 No train-test split?? Only 5-fold CV - (80/20)
-OG People used a Branching CNN instead of a traditional CNN - have changed this as architecture not well-understoof
+OG People used a Branching CNN instead of a traditional CNN - have changed this as architecture not well-understood
 
 **Replicability Issues**
 Table 1 - Vocab size, unknown
 Table 2 - Mostly right, questionable methodology on determination of 'swear word'
 Table 3 - Baseline ML model not similar at all (even when copying code)
 
-Next Catchup - 16.01, 10am
+Next Catchup - 19.01, 10am
 
-TODO - run embedding, get the embedding weights and how to input into Keras model.
-
-Random (BL)
-Report (BL)
-Recheck CNN (BL)
-Glove external embedding (DG)
-Word2Vec (IF)
-
-OUTPUT - either something that can go into the DL model, or the embedding layer
-
+TODO - Build Embedders for Wiki and Formspring (DG)
+TODO - Report (BL/IF)
+TODO - Word2Vec (IF) - expect by coming week (Tuesdayish) - got embed dictionary already - check how to get 25/50 dimension?
+TODO - run DL models and get results (BL/IF)
+TODO - Check Tensorflow GPU on Windows (BL)
 TODO - add sklearn wrappers to the four models (BL)
-TODO - update template
+TODO - presentation (DG)
 
-TODO - setup DL models
-TODO - run DL models and get results
-TODO - significance testing (BL)
+TODO - significance testing
 
-TODO - Understand inputs....
-TODO - check if TU cluster has GPU
+TODO - TASK-SPECIFIC - extract embeddings (IF - to understand physical logistics)
+TODO - TRANSFER LEARNING (read up on general idea DG - to understand physical logistics)
 
-TASK-SPECIFIC
-TRANSFER LEARNING
+TODO - presentation (Discuss our plan looking to prove conclusion rather than exact number, what we found so far, things left to do)
 
-original encoded data -> EMBEDDING ?? -> embedded data -> own architecture
-
-
-usually tokenise
-
-BERT - google pre-processing tool (takes in strings) + embedding
-Glove - determine what the appropriate inputs are (usually not dictionary) - ANCIENT
-
-Find out what inputs are needed for BERT and glove. build embedder pre-processor
-Amend pre-processor to fit with embedding requirements.
