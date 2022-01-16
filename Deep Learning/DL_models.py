@@ -9,14 +9,6 @@ from keras.models import Sequential
 from keras import backend as K
 from keras.engine.topology import Layer, InputSpec
 
-# add this bit to each dataset's workbook
-random_embedder = Embedding(vocab_size, embed_size, input_length=inp_dim, trainable=True)
-glove_embedding = Embedding(vocab_size, embed_size, embeddings_initializer=keras.initializers.Constant(glove_weights),
-                            trainable=False)
-word2vec_embedding = Embedding(vocab_size, embed_size, embeddings_initializer=keras.initializers.Constant(word2vec_weights),
-                               trainable=False)
-
-
 def lstm_keras(embed_size, num_classes, embedder):
     model = Sequential()
     model.add(embedder)
