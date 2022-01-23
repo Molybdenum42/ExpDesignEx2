@@ -36,6 +36,7 @@ TODO - Build Embedders for Wiki and Formspring (DG)
 TODO - Report (BL/IF)
 TODO - Word2Vec (IF) - expect by coming week (Tuesdayish) - got embed dictionary already - check how to get 25/50 dimension?
 TODO - run DL models and get results (BL/IF) - BL: Need to add 1 to vocab size for embedders - see glove
+TODO - results generator function
 TODO - presentation (DG)
 
 TODO - significance testing
