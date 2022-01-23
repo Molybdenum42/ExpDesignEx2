@@ -22,6 +22,8 @@ Python 2 vs Python 3 (shouldn't be an issue in concept)
 TensorFlow vocabulary processor doesn't exist anymore
 No train-test split?? Only 5-fold CV - (80/20)
 OG People used a Branching CNN instead of a traditional CNN - have changed this as architecture not well-understood
+No tuning on ML models
+Oversampling done before t/t split
 
 **Replicability Issues**
 Table 1 - Vocab size, unknown
@@ -33,9 +35,7 @@ Next Catchup - 19.01, 10am
 TODO - Build Embedders for Wiki and Formspring (DG)
 TODO - Report (BL/IF)
 TODO - Word2Vec (IF) - expect by coming week (Tuesdayish) - got embed dictionary already - check how to get 25/50 dimension?
-TODO - run DL models and get results (BL/IF)
-TODO - Check Tensorflow GPU on Windows (BL)
-TODO - add sklearn wrappers to the four models (BL)
+TODO - run DL models and get results (BL/IF) - BL: Need to add 1 to vocab size for embedders - see glove
 TODO - presentation (DG)
 
 TODO - significance testing

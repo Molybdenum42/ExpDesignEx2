@@ -3,11 +3,10 @@ import os
 os.environ['KERAS_BACKEND'] = 'theano'
 
 from keras.layers import Dense, Flatten
-from keras.layers import Conv1D, MaxPooling1D, Embedding, Merge, Dropout, LSTM, Bidirectional
+from keras.layers import Conv1D, MaxPooling1D, Dropout, LSTM, Bidirectional, Layer, GlobalMaxPooling1D, Embedding
 from keras.models import Sequential
 
 from keras import backend as K
-from keras.engine.topology import Layer, InputSpec
 
 def lstm_keras(embed_size, num_classes, embedder):
     model = Sequential()
@@ -28,20 +27,10 @@ def cnn_keras(embed_size, num_classes, embedder):
     model.add(embedder)
     model.add(Dropout(0.25))
 
-    model.add(Conv1D(128, 5, padding='same', activation='relu'))
-    model.add(MaxPooling1D(5))
-    model.add(Dropout(0.2))
+    model.add(Conv1D(128, 5, activation='relu'))
+    model.add(GlobalMaxPooling1D())
+    model.add(Dropout(0.50))
 
-    model.add(Conv1D(128, 5, padding='same', activation='relu'))
-    model.add(MaxPooling1D(5))
-    model.add(Dropout(0.2))
-
-    model.add(Conv1D(64, 5, padding='same', activation='relu'))
-    model.add(MaxPooling1D(35))
-
-    model.add(Flatten())
-    model.add(Dense(256, activation='relu'))
-    model.add(Dropout(0.5))
     model.add(Dense(num_classes, activation='softmax'))
 
     model.compile(loss='sparse_categorical_crossentropy',
@@ -58,7 +47,7 @@ def blstm(embed_size, num_classes, embedder):
     model.add(Bidirectional(LSTM(embed_size)))
     model.add(Dropout(0.50))
     model.add(Dense(num_classes, activation='softmax'))
-    model.compile(loss='categorical_crossentropy',
+    model.compile(loss='sparse_categorical_crossentropy',
                   optimizer='adam',
                   metrics=['accuracy'])
     return model
@@ -98,7 +87,7 @@ def blstm_atten(embed_size, num_classes, embedder):
     model.add(AttLayer())
     model.add(Dropout(0.50))
     model.add(Dense(num_classes, activation='softmax'))
-    model.compile(loss='categorical_crossentropy',
+    model.compile(loss='sparse_categorical_crossentropy',
                   optimizer='adam',
                   metrics=['accuracy'])
     return model
