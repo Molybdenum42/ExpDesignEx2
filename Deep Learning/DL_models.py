@@ -33,7 +33,7 @@ def cnn_keras(embed_size, num_classes, embedder):
 
     model.add(Dense(num_classes, activation='softmax'))
 
-    model.compile(loss='sparse_categorical_crossentropy',
+    model.compile(loss='categorical_crossentropy',
                   optimizer='adam',
                   metrics=['accuracy'])
 
@@ -47,7 +47,7 @@ def blstm(embed_size, num_classes, embedder):
     model.add(Bidirectional(LSTM(embed_size)))
     model.add(Dropout(0.50))
     model.add(Dense(num_classes, activation='softmax'))
-    model.compile(loss='sparse_categorical_crossentropy',
+    model.compile(loss='categorical_crossentropy',
                   optimizer='adam',
                   metrics=['accuracy'])
     return model
@@ -87,7 +87,7 @@ def blstm_atten(embed_size, num_classes, embedder):
     model.add(AttLayer())
     model.add(Dropout(0.50))
     model.add(Dense(num_classes, activation='softmax'))
-    model.compile(loss='sparse_categorical_crossentropy',
+    model.compile(loss='categorical_crossentropy',
                   optimizer='adam',
                   metrics=['accuracy'])
     return model
