@@ -32,17 +32,11 @@ Table 3 - Baseline ML model not similar at all (even when copying code)
 
 Next Catchup - 19.01, 10am
 
-TODO - Build Embedders for Wiki and Formspring (DG)
 TODO - Report (BL/IF)
-TODO - Word2Vec (IF) - expect by coming week (Tuesdayish) - got embed dictionary already - check how to get 25/50 dimension?
-TODO - run DL models and get results (BL/IF) - BL: Need to add 1 to vocab size for embedders - see glove
-TODO - results generator function
-TODO - presentation (DG)
-
-TODO - significance testing
+TODO - results generator function (BL)
+TODO - significance testing (BL)
+TODO - do proper ML (DG)
 
 TODO - TASK-SPECIFIC - extract embeddings (IF - to understand physical logistics)
 TODO - TRANSFER LEARNING (read up on general idea DG - to understand physical logistics)
-
-TODO - presentation (Discuss our plan looking to prove conclusion rather than exact number, what we found so far, things left to do)
 
