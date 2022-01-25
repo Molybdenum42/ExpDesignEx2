@@ -53,12 +53,12 @@ def blstm(embed_size, num_classes, embedder):
     return model
 
 
-def blstm_atten(embed_size, num_classes, embedder):
+def blstm_att(embed_size, num_classes, embedder):
     model = Sequential()
     model.add(embedder)
     model.add(Dropout(0.25))
     model.add(Bidirectional(LSTM(embed_size, return_sequences=True)))
-    model.add(Attention())
+    model.add(Attention(use_scale=True))
     model.add(Dropout(0.50))
     model.add(Dense(num_classes, activation='softmax'))
     model.compile(loss='categorical_crossentropy',
