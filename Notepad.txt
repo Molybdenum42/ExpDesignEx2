@@ -30,13 +30,24 @@ Table 1 - Vocab size, unknown
 Table 2 - Mostly right, questionable methodology on determination of 'swear word'
 Table 3 - Baseline ML model not similar at all (even when copying code)
 
-Next Catchup - 19.01, 10am
+Next Catchup - 28.01, 9am
 
-TODO - Report (BL/IF)
-TODO - results generator function (BL)
-TODO - significance testing (BL)
-TODO - do proper ML (DG)
+TODO - Report (DG)
+TODO - incorporate refit of ML to DL workbooks (BL)
+TODO - run DL for other datasets (BL)
+TODO - TASK-SPECIFIC - extract embeddings (IF - implement, test on BL's model) - BL to send model
 
-TODO - TASK-SPECIFIC - extract embeddings (IF - to understand physical logistics)
-TODO - TRANSFER LEARNING (read up on general idea DG - to understand physical logistics)
+TODO - TRANSFER LEARNING (read up on general idea DG+IF - to understand physical logistics)
+
+
+Report Structure
+ABSTRACT (Do at end)
+INTRODUCTION (Describe plan on paper, etc - focus on talking about PRIMAD)
+ - focus on Repeating Validation of statements which are: 1, 2, 3, 4, 5, 6, 7
+OTHER STUDIES (Steal from Lukas and paraphrase?) - FILLER
+OUR OWN SETUP (Out of necessity, primed Port and partial Recode)
+RESULTS: Discuss each statement
+CONCLUSION 
+REFERENCE
+
 
