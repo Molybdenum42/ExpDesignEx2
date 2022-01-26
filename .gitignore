@@ -132,3 +132,5 @@ dmypy.json
 /Deep Learning/glove_embeddings/glove.twitter.27B.25d.txt
 /Deep Learning/GoogleNews-vectors-negative300.bin
 /Deep Learning/models_twitter
+/Deep Learning/models_formspring
+/Deep Learning/models_wiki
