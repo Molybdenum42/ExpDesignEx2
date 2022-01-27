@@ -33,8 +33,8 @@ Table 3 - Baseline ML model not similar at all (even when copying code)
 Next Catchup - 28.01, 9am
 
 TODO - Report (DG)
-TODO - incorporate refit of ML to DL workbooks (BL)
-TODO - run DL for other datasets (BL)
+TODO - incorporate refit of ML to DL workbooks (BL) - Failed, will address as shortcoming in report
+TODO - run DL for other datasets (BL) - Done
 TODO - TASK-SPECIFIC - extract embeddings (IF - implement, test on BL's model) - BL to send model
 
 TODO - TRANSFER LEARNING (read up on general idea DG+IF - to understand physical logistics)
