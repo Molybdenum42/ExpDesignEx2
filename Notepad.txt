@@ -2,16 +2,14 @@ LINK TO OVERLEAF
 https://www.overleaf.com/5139488846tztmskpnwfzq
 
 **Conclusion Issues**
-- Swear words are not necessary/sufficient - PROVEN
-- DL models outperform ML models
-- Oversampling is better due to class imbalance
-- Vocab of words used for cyberbullying and their interpretation varies wildly
 
-- word embedding methods have no difference
+- DL models outperform ML models
+- Oversampling is better due to class imbalance - (marginal, not consistent (difference only in random embeddings))
+
+- word embedding methods have no difference - (THRE IS A STAT DIFFERENCE)
 - no difference between DL models (LSTM generally weaker) against oversampled data
 
-- Task Specific Embedding ????
-- TL ????
+- TL WHAT IS THE CLAIM?? -
 
 **Data Issues**
 - Twitter data very specifically sourced focusing on keywords which would attract racist and sexist comments (e.g. #notallmen, My Kitchen Rules, Islam Terrorism, etc.)
@@ -30,24 +28,24 @@ Table 1 - Vocab size, unknown
 Table 2 - Mostly right, questionable methodology on determination of 'swear word'
 Table 3 - Baseline ML model not similar at all (even when copying code)
 
-Next Catchup - 28.01, 9am
+Next Catchup - 29.01, 10am
 
-TODO - Report (DG)
-TODO - incorporate refit of ML to DL workbooks (BL) - Failed, will address as shortcoming in report
-TODO - run DL for other datasets (BL) - Done
-TODO - TASK-SPECIFIC - extract embeddings (IF - implement, test on BL's model) - BL to send model
-
-TODO - TRANSFER LEARNING (read up on general idea DG+IF - to understand physical logistics)
-
+TODO - Report (DG, IF, BL)
+TODO - Add Evaluation on Proper ML (DG)
+TODO - Copy paste Formspring results, send to Ilija (BL)
+TODO - Copy paste Twitter/Wiki results
+TODO - Transfer Learning - write some bullshit (BL)
+TODO - Clean up Github
 
 Report Structure
 ABSTRACT (Do at end)
 INTRODUCTION (Describe plan on paper, etc - focus on talking about PRIMAD)
  - focus on Repeating Validation of statements which are: 1, 2, 3, 4, 5, 6, 7
-OTHER STUDIES (Steal from Lukas and paraphrase?) - FILLER
+ISSUES FOUND IN ORIGINAL STUDY
 OUR OWN SETUP (Out of necessity, primed Port and partial Recode)
 RESULTS: Discuss each statement
-CONCLUSION 
+CONCLUSION
+FUTURE WORK
 REFERENCE
 
 
