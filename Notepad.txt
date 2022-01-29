@@ -1,61 +1,10 @@
 LINK TO OVERLEAF
 https://www.overleaf.com/5139488846tztmskpnwfzq
 
-**Conclusion Issues**
+Next Catchup - 30.01, 10am
 
-- DL models outperform ML models
- - empathic no
- - compare best confusion matrices between the two
- 
- 
-- Oversampling is better due to class imbalance 
- - Formspring (marginal, not consistent (difference only in random embeddings)) 
- - Twitter either no stat sig or 
- - Wiki???
-
-- word embedding methods have no difference 
- - Formpsring & Twitter There is a significant difference between Glove & Word2Vec compared to random embedding
- - Wiki???
-
-- no difference between DL models (LSTM generally weaker) against oversampled data
- - Formspring and Twitter - there are differences 
-
-- TL WHAT IS THE CLAIM?? -
-
-**Data Issues**
-- Twitter data very specifically sourced focusing on keywords which would attract racist and sexist comments (e.g. #notallmen, My Kitchen Rules, Islam Terrorism, etc.)
-
-
-**Methodology Issues**
-Python 2 vs Python 3 (shouldn't be an issue in concept)
-TensorFlow vocabulary processor doesn't exist anymore
-No train-test split?? Only 5-fold CV - (80/20)
-OG People used a Branching CNN instead of a traditional CNN - have changed this as architecture not well-understood
-No tuning on ML models
-Oversampling done before t/t split
-
-**Replicability Issues**
-Table 1 - Vocab size, unknown
-Table 2 - Mostly right, questionable methodology on determination of 'swear word'
-Table 3 - Baseline ML model not similar at all (even when copying code)
-
-Next Catchup - 29.01, 10am
-
-TODO - Report (DG - early bits, IF - what's left after lunch, BL - results bit)
-TODO - Copy paste Formspring results, send to Ilija (BL)
-TODO - Copy paste Wiki results (IF)
-TODO - Transfer Learning - write some bullshit (BL)
+TODO - Report (IF) - Abstract and Expand Future Work
+TODO - Report (BL) - Conclusion and Word Embedding, Citation for AutoML
+TODO - Report (DG) - Complete Table for Trad ML, Add Link to Git somewhere in report
 TODO - Clean up Github
-
-Report Structure
-ABSTRACT (Do at end)
-INTRODUCTION (Describe plan on paper, etc - focus on talking about PRIMAD)
- - focus on Repeating Validation of statements which are: 1, 2, 3, 4, 5, 6, 7
-ISSUES FOUND IN ORIGINAL STUDY
-OUR OWN SETUP (Out of necessity, primed Port and partial Recode)
-RESULTS: Discuss each statement
-CONCLUSION
-FUTURE WORK
-REFERENCE
-
-
+TODO - Upload to Zenodo
