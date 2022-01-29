@@ -4,10 +4,21 @@ https://www.overleaf.com/5139488846tztmskpnwfzq
 **Conclusion Issues**
 
 - DL models outperform ML models
-- Oversampling is better due to class imbalance - (marginal, not consistent (difference only in random embeddings))
+ - empathic no
+ - compare best confusion matrices between the two
+ 
+ 
+- Oversampling is better due to class imbalance 
+ - Formspring (marginal, not consistent (difference only in random embeddings)) 
+ - Twitter either no stat sig or 
+ - Wiki???
 
-- word embedding methods have no difference - (THRE IS A STAT DIFFERENCE)
+- word embedding methods have no difference 
+ - Formpsring & Twitter There is a significant difference between Glove & Word2Vec compared to random embedding
+ - Wiki???
+
 - no difference between DL models (LSTM generally weaker) against oversampled data
+ - Formspring and Twitter - there are differences 
 
 - TL WHAT IS THE CLAIM?? -
 
@@ -30,10 +41,9 @@ Table 3 - Baseline ML model not similar at all (even when copying code)
 
 Next Catchup - 29.01, 10am
 
-TODO - Report (DG, IF, BL)
-TODO - Add Evaluation on Proper ML (DG)
+TODO - Report (DG - early bits, IF - what's left after lunch, BL - results bit)
 TODO - Copy paste Formspring results, send to Ilija (BL)
-TODO - Copy paste Twitter/Wiki results
+TODO - Copy paste Wiki results (IF)
 TODO - Transfer Learning - write some bullshit (BL)
 TODO - Clean up Github
 
