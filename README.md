@@ -4,5 +4,5 @@ A reproducibility study done for the Experiment Design in Data Science course, T
 
 Original paper by Agrawal and Awekar: [paper](https://arxiv.org/pdf/1801.06482.pdf), [github](https://github.com/sweta20/Detecting-Cyberbullying-Across-SMPs)
 
-[Read our report here](link-to-zenodo.com).
+Read our report on zenodo with this DOI: 10.5281/zenodo.5918570
 
